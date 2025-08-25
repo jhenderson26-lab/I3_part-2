@@ -1,0 +1,100 @@
+.body_style {
+    padding: 25px;
+    background-color: black;
+
+}
+
+
+#Nameofcharity {
+    background-color: gold;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3%;
+    border: 10px solid #555;
+}
+
+.Princes {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    border: 10px solid #555;
+}
+
+
+.blackandyallow {
+    
+    background-size:cover;
+    background-color: gold;
+    text-align: center;
+    font-weight: bolder;
+    padding: 2%;
+    border: 5px solid #555;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 28px;
+}
+
+.body_style p, .card_info{
+    color: white;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 20px;
+    
+}
+
+.BigThanks {
+    font-size: 40px;
+}
+
+
+/*phones*/
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .body_style {
+    
+    font-size: 13px;
+
+  }
+  #Nameofcharity {
+    font-size: 200%;
+  }
+
+  .BigThanks {
+    font-size: 24px;
+}
+
+  h2.blackandyallow{
+    font-size: 190%;
+  }  
+  .body_style p {
+    font-size: 22px;
+  }
+  .Princes { 
+    
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .body_style {
+    font-size: 14px;
+  }
+  .blackandyallow h2{
+    font-size: 200%;
+  }
+
+  .BigThanks {
+    font-size: 50px;
+  }
+
+
+  .body_style p {
+    font-size: 24px;
+  }
+  .Princes {
+    width: 80%;
+    height: 90%;
+  }
+}
