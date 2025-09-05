@@ -35,7 +35,7 @@
     font-size: 28px;
 }
 
-.body_style p, .card_info{
+.text_info, .card_info{
     color: white;
     text-align: center;
     margin-right: 25%;
@@ -44,44 +44,15 @@
     
 }
 
-.BigThanks {
-    font-size: 40px;
+#ThankingUser {
+    font-size: 35px;
 }
 
-
-/*phones*/
-@media screen and (max-width: 600px) and (min-width: 300px) {
-  .body_style {
-    
-    font-size: 13px;
-
-  }
-  #Nameofcharity {
-    font-size: 200%;
-  }
-
-  .BigThanks {
-    font-size: 24px;
-}
-
-  h2.blackandyallow{
-    font-size: 190%;
-  }  
-  .body_style p {
-    font-size: 22px;
-  }
-  .Princes { 
-    
-    width: 80%;
-    height: 90%;
-  }
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
+@media screen and (max-width: 900px) and (min-width: 200px) {
     .body_style {
     font-size: 14px;
   }
-  .blackandyallow h2{
+  .blackandyallow .sub_title{
     font-size: 200%;
   }
 
@@ -90,7 +61,7 @@
   }
 
 
-  .body_style p {
+  .body_style .text_info {
     font-size: 24px;
   }
   .Princes {
